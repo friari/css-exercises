@@ -29,7 +29,6 @@ a {
   font-weight: 900;
   font-size: 2rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0 1rem;
 }
@@ -55,6 +54,7 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 1rem;
 }
 
 .main {

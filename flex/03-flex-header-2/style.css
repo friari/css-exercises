@@ -14,20 +14,12 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
+.header__right,
 .header__left {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-}
-
-.header__right {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 1rem;
 }
@@ -49,8 +41,6 @@ body {
 
 .links {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   gap: 1rem;
 }
 
